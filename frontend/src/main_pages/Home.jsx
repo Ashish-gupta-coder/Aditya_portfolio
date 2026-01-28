@@ -1,0 +1,69 @@
+import { FaLongArrowAltRight } from "react-icons/fa";
+import { MdLightMode } from "react-icons/md";
+import { IoIosCloudyNight } from "react-icons/io";
+import { HiOutlineDownload } from "react-icons/hi";
+import Resume from "../assets/Ashish_gupta_resume.pdf";
+import assets from "../assets/assets";
+import { useState } from "react";
+
+
+function Home() {
+    const [mode, setMode] = useState(false);
+  
+  return (
+    <section
+      id="home"
+      className="w-screen h-screen flex items-center justify-center text-white mt-24"
+    >
+      <div className="w-[80%] flex flex-col items-center gap-5 text-center">
+        
+        {/* Profile */}
+        <div className="flex flex-col items-center gap-2">
+          <img
+            src={assets.hero.image}
+            alt="Ashish Gupta"
+            className="w-[120px] h-[120px] rounded-full object-cover"
+          />
+          
+          <p>Hi! I'm Ashish Gupta 👋</p>
+        </div>
+
+        {/* Content */}
+        <div className="flex flex-col gap-4">
+          <h1 className="text-5xl font-bold">
+            MERN stack web <span className="text-[#786de6]">developer</span>
+          </h1>
+          <p className="text-xs font-medium text-gray-400 leading-6">
+            Turning ideas into high-quality web applications with MERN technologies. Focused on clean code,<br /> performance, and seamless user experiences.
+          </p>
+        </div>
+
+        {/* Buttons */}
+        <div className="flex gap-5 font-medium">
+          <a href="#contact">
+            <button className="w-[130px] h-[35px] bg-[#7564e6] rounded-2xl text-xs flex items-center justify-center gap-1">
+              Connect with me <FaLongArrowAltRight />
+            </button>
+          </a>
+
+          <a href={Resume} download>
+            <button className="w-[130px] h-[35px] border border-[#616974] rounded-2xl text-xs flex items-center justify-center gap-1 text-[#e6e9ed]">
+              My Resume <HiOutlineDownload />
+            </button>
+          </a>
+        </div>
+
+      </div>
+      <div className="w-14 h-14 bg-[#786de6] hover:bg-transparent hover:border-2 hover:border-[#786de6] hover:text-[#786de6] fixed bottom-5 right-2 flex items-center justify-center rounded-full z-10">
+         <button
+                className="text-white md:text-3xl text-4xl hover:text-[#786de6] md:hidden flex items-center gap-2"
+                onClick={() => setMode((prev) => !prev)}
+              >
+                {mode ? <MdLightMode /> : <IoIosCloudyNight />}
+        </button>
+      </div>
+    </section>
+  );
+}
+
+export default Home;
