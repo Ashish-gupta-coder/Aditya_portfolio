@@ -8,7 +8,6 @@ import { useState } from "react";
 
 
 function Home() {
-    const [mode, setMode] = useState(false);
   
   return (
     <section
@@ -54,14 +53,7 @@ function Home() {
         </div>
 
       </div>
-      <div className="w-14 h-14 bg-[#786de6] hover:bg-transparent hover:border-2 hover:border-[#786de6] hover:text-[#786de6] fixed bottom-5 right-2 flex items-center justify-center rounded-full z-10">
-         <button
-                className="text-white md:text-3xl text-4xl hover:text-[#786de6] md:hidden flex items-center gap-2"
-                onClick={() => setMode((prev) => !prev)}
-              >
-                {mode ? <MdLightMode /> : <IoIosCloudyNight />}
-        </button>
-      </div>
+      
     </section>
   );
 }

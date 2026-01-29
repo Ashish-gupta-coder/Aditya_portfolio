@@ -4,7 +4,7 @@ import { PiArrowUpRight } from "react-icons/pi";
 function Project_card({picture,title,name,feature1,feature2,feature3,live,github,index}) {
   return (
    <div
-  className="w-[1000px] h-[500px] text-white 
+  className="md:w-[1000px] md:h-[500px] text-white 
              flex items-center justify-center rounded-md 
              sticky" 
   style={{
@@ -12,7 +12,6 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
   }}
 >
 
-    <div className="h-full w-full flex items-center justify-center">
       <div className="max-w-6xl w-full bg-gradient-to-br from-[#0f1b2d] to-[#0b1220] border border-white/10 rounded-2xl p-10 grid md:grid-cols-2 gap-10 shadow-xl">
         {/* Left Content */}
         <div className="flex flex-col justify-center gap-6 text-white">
@@ -61,7 +60,6 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
 </div>
 
       </div>
-    </div>
     </div>
   );
 }

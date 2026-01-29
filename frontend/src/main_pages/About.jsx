@@ -5,14 +5,14 @@ function About() {
   return (
     <section
       id="about"
-      className="relative w-screen min-h-screen flex justify-center text-white  py-20"
+      className="relative w-screen min-h-screen flex justify-center text-white  md:py-20"
     >
       <div className="relative w-[90%] max-w-7xl flex flex-col items-center gap-6">
         <p className="font-medium text-gray-400">Introduction</p>
         <h1 className="text-5xl font-semibold">
           About <span className="text-[#786de6]">me</span>
         </h1>
-        <div className="w-full flex flex-col md:flex-row-reverse gap-16 mt-20 items-start">
+        <div className="w-full flex flex-col md:flex-row-reverse gap-16 md:mt-20 mt-10 items-start">
           <div className="md:w-[60%] flex flex-col gap-6">
             <h2 className="text-2xl font-semibold">
               MERN Stack Developer & Problem Solver
@@ -36,7 +36,7 @@ function About() {
               <div className="flex flex-wrap justify-center gap-3">
                 {assets.skills.map((item) => (
                   <div
-                    className="py-4 md:px-8 rounded-full flex md:flex-row flex-col justify-center items-center gap-2
+                    className="py-4 md:px-8 px-8 rounded-3xl md:rounded-full flex md:flex-row flex-col justify-center items-center gap-2
                     backdrop-blur-md bg-white/10 border border-white/20 shadow-lg hover:scale-105 transition-transform duration-300"
                   >
                     
@@ -44,13 +44,13 @@ function About() {
   <item.icon />
 </span>
                 
-                    <span className="text-sm font-medium">{item.name}</span>
+                    <span className="text-sm font-medium hidden md:flex">{item.name}</span>
                   </div>
                 ))}
               </div>
             </div>
           </div>
-          <div className="md:w-[40%] flex flex-col gap-6">
+          <div className="md:w-[40%] hidden md:flex flex-col gap-6">
             {assets.about.descriptionBox.map((item) => (
               <div className="relative md:w-[420px] w-[300px] h-[150px] rounded-xl bg-gradient-to-br from-[#0b1220] to-[#050c16] border border-white/10  backdrop-blur-xl  text-white cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(120,109,230,0.25)]">
                 <div className="absolute inset-0 rounded-xl bg-[#786de6]/10 blur-xl opacity-0 hover:opacity-100 transition" />

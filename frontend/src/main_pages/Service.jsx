@@ -26,7 +26,7 @@ function Service() {
         </div>
       </div>
       <div
-        className="flex flex-wrap items-center justify-center w-full  gap-6 md:gap-10 mt-10"
+        className="md:flex hidden flex-wrap items-center justify-center w-full  gap-6 md:gap-10 mt-10"
         data-aos="fade-up"
       >
         {assets.services.map((item,index) => (
@@ -67,6 +67,24 @@ function Service() {
           </div>
         ))}
       </div>
+       <div className="md:w-[40%] md:hidden flex flex-col gap-6">
+            {assets.about.descriptionBox.map((item) => (
+              <div className="relative md:w-[420px] w-[300px] h-[150px] rounded-xl bg-gradient-to-br from-[#0b1220] to-[#050c16] border border-white/10  backdrop-blur-xl  text-white cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(120,109,230,0.25)]">
+                <div className="absolute inset-0 rounded-xl bg-[#786de6]/10 blur-xl opacity-0 hover:opacity-100 transition" />
+                <div className="relative z-10 flex flex-col justify-center gap-3 px-6 h-full">
+                  <div className="flex items-center gap-4">
+                    <span className="text-[28px] text-[#786de6]">
+                      <item.icon/>
+                    </span>
+                    <p className="text-[18px] font-semibold">{item.heading}</p>
+                  </div>
+                  <p className="text-[13px] leading-relaxed text-[#c1c7d0]">
+                    {item.text}
+                  </p>
+                </div>
+              </div>
+            ))}
+          </div>
     </div>
   );
 }
