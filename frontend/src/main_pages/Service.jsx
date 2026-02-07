@@ -6,7 +6,7 @@ function Service() {
   return (
     <div
       id="service"
-      className="w-full lg:h-screen flex flex-col gap-10 px-4 py-10 overflow-hidden scroll-mt-20"
+      className="w-full lg:h-screen flex flex-col gap-10 px-4 py-10 overflow-hidden scroll-mt-20 overflow-x-hidden"
     >
       <div className="w-full flex flex-col items-center text-center text-white">
         <div className="max-w-3xl flex flex-col items-center justify-center">

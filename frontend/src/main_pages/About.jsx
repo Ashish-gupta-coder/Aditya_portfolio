@@ -5,7 +5,7 @@ function About() {
   return (
     <section
       id="about"
-      className="relative w-screen min-h-screen flex justify-center text-white  md:py-20"
+      className="relative w-screen min-h-screen flex justify-center text-white scroll-mt-24  md:py-20 overflow-x-hidden"
     >
       <div className="relative w-[90%] max-w-7xl flex flex-col items-center gap-6">
         <p data-aos="fade-up" data-aos-delay="100" className="font-medium text-gray-400">Introduction</p>

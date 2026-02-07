@@ -3,7 +3,7 @@ import { MdOutgoingMail } from "react-icons/md";
 
 function Contact() {
   return (
-    <div id="contact" className="w-full min-h-screen text-white flex flex-col items-center overflow-hidden scroll-mt-24">
+    <div id="contact" className="w-full min-h-screen text-white flex flex-col items-center overflow-hidden scroll-mt-24 overflow-x-hidden">
       {/* Header */}
       <div className="w-full text-center flex flex-col gap-5 items-center justify-center ">
         <h1 className="font-bold text-4xl md:text-5xl" data-aos="fade-up" data-aos-delay="100">

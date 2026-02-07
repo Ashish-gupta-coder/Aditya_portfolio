@@ -12,7 +12,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="w-screen h-screen flex items-center justify-center text-white mt-24 scroll-mt-24"
+      className="w-screen h-screen flex items-center justify-center text-white mt-24 scroll-mt-24 overflow-x-hidden"
     >
       <div className="w-[80%] flex flex-col items-center gap-5 text-center">
         
