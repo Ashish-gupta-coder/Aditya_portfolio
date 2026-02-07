@@ -12,7 +12,7 @@ function Home() {
   return (
     <section
       id="home"
-      className="w-screen h-screen flex items-center justify-center text-white mt-24"
+      className="w-screen h-screen flex items-center justify-center text-white mt-24 scroll-mt-24"
     >
       <div className="w-[80%] flex flex-col items-center gap-5 text-center">
         
@@ -21,14 +21,14 @@ function Home() {
           <img
             src={assets.hero.image}
             alt="Ashish Gupta"
-            className="w-[120px] h-[120px] rounded-full object-cover"
+            className="w-[120px] h-[120px] rounded-full object-cover" data-aos="zoom-in"
           />
           
-          <p>Hi! I'm Ashish Gupta 👋</p>
+          <p data-aos="zoom-in">Hi! I'm Ashish Gupta 👋</p>
         </div>
 
         {/* Content */}
-        <div className="flex flex-col gap-4">
+        <div className="flex flex-col gap-4" data-aos="zoom-in">
           <h1 className="text-5xl font-bold">
             MERN stack web <span className="text-[#786de6]">developer</span>
           </h1>
@@ -39,13 +39,13 @@ function Home() {
 
         {/* Buttons */}
         <div className="flex gap-5 font-medium">
-          <a href="#contact">
+          <a href="#contact" data-aos="zoom-in" data-aos-offset="0">
             <button className="w-[130px] h-[35px] bg-[#7564e6] rounded-2xl text-xs flex items-center justify-center gap-1">
               Connect with me <FaLongArrowAltRight />
             </button>
           </a>
 
-          <a href={Resume} download>
+          <a href={Resume} download data-aos="zoom-in" data-aos-offset="0">
             <button className="w-[130px] h-[35px] border border-[#616974] rounded-2xl text-xs flex items-center justify-center gap-1 text-[#e6e9ed]">
               My Resume <HiOutlineDownload />
             </button>

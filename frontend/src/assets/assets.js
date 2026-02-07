@@ -8,7 +8,7 @@ import { GiPencilBrush } from "react-icons/gi";
 import { FaAppStore } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
 import ProfilePic from "../assets/Image.jpg";
-import thumblify from "../assets/Thumbnailify.png";
+import vidcall from "../assets/vidcall.png";
 import quickstay from "../assets/Quickstay.png";
 import Greencart from "../assets/Greencart.png";
 import Portfolio from "../assets/Portfolio.png";
@@ -74,16 +74,6 @@ const assets = {
 ],
   projects: [
     {
-      picture: thumblify,
-      title: "Thumblify",
-      name:"Thumbnail generating using AI",
-      feature1:"Create a thumbnail generator using AI",
-      feature2:"Implement user authentication (signup & login)",
-      feature3:"Save generated thumbnails to the database",
-      live: "https://my-portfolio-ashish.netlify.app/",
-      github: "https://github.com/yourusername/portfolio",
-    },
-    {
       picture: quickstay,
       title: "QuickStay",
       name:"Hotel Booking Website",
@@ -100,6 +90,16 @@ const assets = {
       feature1:"User Authentication & Authorization",
       feature2:"Product Search & Filtering",
       feature3:"Implemented add-to-cart functionality with quantity control.",
+      live: "https://my-portfolio-ashish.netlify.app/",
+      github: "https://github.com/yourusername/portfolio",
+    },
+     {
+      picture: vidcall,
+      title: "VidCall",
+      name:"Video Calling Web Application",
+      feature1:"Real-time HD video & audio calling with low latency using ZegoCloud SDK",
+      feature2:"Secure room-based video sessions for private one-to-one calls",
+      feature3:"Responsive and intuitive user interface across all devices",
       live: "https://my-portfolio-ashish.netlify.app/",
       github: "https://github.com/yourusername/portfolio",
     },

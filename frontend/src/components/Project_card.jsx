@@ -12,7 +12,7 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
   }}
 >
 
-      <div className="max-w-6xl w-full bg-gradient-to-br from-[#0f1b2d] to-[#0b1220] border border-white/10 rounded-2xl p-10 grid md:grid-cols-2 gap-10 shadow-xl">
+      <div className="max-w-6xl w-full bg-gradient-to-br from-[#0f1b2d] to-[#0b1220] border border-white/10 rounded-2xl md:p-10 p-5 grid md:grid-cols-2 gap-10 shadow-xl">
         {/* Left Content */}
         <div className="flex flex-col justify-center gap-6 text-white">
           <span className="text-sm tracking-widest text-[#786de6]">{title}</span>
@@ -33,11 +33,20 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
               {feature3}
             </li>
           </ul>
+          <div className="flex items-center justify-between relative">
+
+         
 <a href={live}>
           <button className="mt-4 w-fit flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-medium  transition bg-[#786de6] text-white">
             Visit Live Site <span><PiArrowUpRight/></span>
           </button>
           </a>
+          <a href={github}>
+          <div className="px-5 absolute right-0 bottom-2 underline underline-offset-4">
+            <span>code</span>
+            </div>
+            </a>
+           </div>
         </div>
 
         {/* Right Preview */}

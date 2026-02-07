@@ -6,20 +6,21 @@ function Service() {
   return (
     <div
       id="service"
-      className="w-full lg:h-screen flex flex-col gap-10 px-4 py-10 overflow-hidden"
+      className="w-full lg:h-screen flex flex-col gap-10 px-4 py-10 overflow-hidden scroll-mt-20"
     >
       <div className="w-full flex flex-col items-center text-center text-white">
         <div className="max-w-3xl flex flex-col items-center justify-center">
           <h2
             className="text-sm font-medium uppercase tracking-wide"
-            data-aos="fade-up"
+            
+            data-aos="fade-up" data-aos-delay="100"
           >
             What I Offer
           </h2>
-          <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-up">
+          <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-up" data-aos-delay="200">
             My <span className="text-[#786de6]">services</span>
           </h1>
-          <p className="text-sm md:text-base text-gray-400 max-w-xl mt-6">
+          <p className="text-sm md:text-base text-gray-400 max-w-xl mt-6" data-aos="zoom-in" data-aos-delay="300">
             Full Stack Developer | React.js, Node.js & Tailwind CSS | Building
             scalable, responsive end-to-end web applications 🚀
           </p>
