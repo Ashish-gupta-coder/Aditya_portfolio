@@ -1,5 +1,21 @@
-import {FaHtml5,FaCss3Alt,FaReact,FaNodeJs,FaGithub,FaDocker,FaAws,} from "react-icons/fa";
-import {SiJavascript,SiTailwindcss,SiNextdotjs,SiMongodb,SiVercel,SiNotion,SiSlack,} from "react-icons/si";
+import {
+  FaHtml5,
+  FaCss3Alt,
+  FaReact,
+  FaNodeJs,
+  FaGithub,
+  FaDocker,
+  FaAws,
+} from "react-icons/fa";
+import {
+  SiJavascript,
+  SiTailwindcss,
+  SiNextdotjs,
+  SiMongodb,
+  SiVercel,
+  SiNotion,
+  SiSlack,
+} from "react-icons/si";
 import { GrHtml5 } from "react-icons/gr";
 import { SiExpress } from "react-icons/si";
 import { IoLogoNodejs } from "react-icons/io5";
@@ -18,7 +34,7 @@ const assets = {
     image: ProfilePic,
     title: "Hi, I'm Ashish",
     subtitle: "Full Stack Developer | MERN Stack",
-  },  
+  },
   about: {
     descriptionBox: [
       {
@@ -27,12 +43,12 @@ const assets = {
         text: "Proficient in developing responsive, user-friendly web applications using MongoDB, Express, React, and Node.js.",
       },
       {
-        icon:GiPencilBrush,
+        icon: GiPencilBrush,
         heading: "UI/UX Design",
         text: "Creating visually appealing and highly functional designs that enhance user interaction.",
       },
       {
-        icon:SiNginxproxymanager,
+        icon: SiNginxproxymanager,
         heading: "Project Management",
         text: "Leading projects from planning to execution with a focus on delivering high-quality outcomes on time.",
       },
@@ -52,68 +68,71 @@ const assets = {
     { icon: FaGithub, name: "Git & GitHub" },
     { icon: SiVercel, name: "Vercel" },
   ],
- services: [
-  {
-    icon: ImEmbed2,
-    heading: "Web Development",
-    paragraph:
-      "Building responsive, scalable web apps with React.js, Node.js & Tailwind CSS — clean and high-performance solutions...",
-  },
-  {
-    icon: GiPencilBrush,
-    heading: "UI/UX Design",
-    paragraph:
-      "Designing intuitive, user-friendly interfaces — smooth, engaging, and accessible experiences...",
-  },
-  {
-    icon: FaAppStore,
-    heading: "App Development",
-    paragraph:
-      "Creating fast, responsive mobile apps with React Native — seamless experiences across devices...",
-  },
-],
+  services: [
+    {
+      icon: ImEmbed2,
+      heading: "Web Development",
+      paragraph:
+        "Building responsive, scalable web apps with React.js, Node.js & Tailwind CSS — clean and high-performance solutions...",
+    },
+    {
+      icon: GiPencilBrush,
+      heading: "UI/UX Design",
+      paragraph:
+        "Designing intuitive, user-friendly interfaces — smooth, engaging, and accessible experiences...",
+    },
+    {
+      icon: FaAppStore,
+      heading: "App Development",
+      paragraph:
+        "Creating fast, responsive mobile apps with React Native — seamless experiences across devices...",
+    },
+  ],
   projects: [
     {
       picture: quickstay,
       title: "QuickStay",
-      name:"Hotel Booking Website",
-      feature1:"Hotel booking system where users can book hotel rooms...",
-      feature2:"Admin can also add new hotel rooms on this website and manage dashboard...",
-      feature3:"Login & registration feature like jwt, password hashing, and secure APIs. ",
-      live: "https://my-portfolio-ashish.netlify.app/",
-      github: "https://github.com/yourusername/portfolio",
+      name: "Hotel Booking Website",
+      feature1: "Hotel booking system where users can book hotel rooms...",
+      feature2:
+        "Admin can also add new hotel rooms on this website and manage dashboard...",
+      feature3:
+        "Login & registration feature like jwt, password hashing, and secure APIs. ",
+      live: "https://quick-stay-6sbz.onrender.com/",
+      github: "https://github.com/Ashish-gupta-coder/Quick_Stay",
     },
     {
       picture: Greencart,
       title: "Greencart",
-      name:"Grocery Store Web App",
-      feature1:"User Authentication & Authorization",
-      feature2:"Product Search & Filtering",
-      feature3:"Implemented add-to-cart functionality with quantity control.",
-      live: "https://my-portfolio-ashish.netlify.app/",
-      github: "https://github.com/yourusername/portfolio",
+      name: "Grocery Store Web App",
+      feature1: "User Authentication & Authorization",
+      feature2: "Product Search & Filtering",
+      feature3: "Implemented add-to-cart functionality with quantity control.",
+      live: "https://green-cart-znq4.onrender.com/",
+      github: "https://github.com/Ashish-gupta-coder/Green_cart",
     },
-     {
+    {
       picture: vidcall,
       title: "VidCall",
-      name:"Video Calling Web Application",
-      feature1:"Real-time HD video & audio calling with low latency using ZegoCloud SDK",
-      feature2:"Secure room-based video sessions for private one-to-one calls",
-      feature3:"Responsive and intuitive user interface across all devices",
-      live: "https://my-portfolio-ashish.netlify.app/",
-      github: "https://github.com/yourusername/portfolio",
+      name: "Video Calling Web Application",
+      feature1:
+        "Real-time HD video & audio calling with low latency using ZegoCloud SDK",
+      feature2: "Secure room-based video sessions for private one-to-one calls",
+      feature3: "Responsive and intuitive user interface across all devices",
+      live: "https://join-room.netlify.app/",
+      github: "https://github.com/Ashish-gupta-coder/Video-calling",
     },
     {
       picture: Portfolio,
       title: "Portfolio",
-      name:"Portfolio website that express my self",
-      feature1:"Responsive layout with dark/light mode toggle",
-      feature2:"Contact form integrated with email service",
-      feature3:"Resume upload & download functionality",
-      live: "https://my-portfolio-ashish.netlify.app/",
-      github: "https://github.com/yourusername/portfolio",
+      name: "Portfolio website that express my self",
+      feature1: "Responsive layout with dark/light mode toggle",
+      feature2: "Contact form integrated with email service",
+      feature3: "Resume upload & download functionality",
+      live: "https://ashish-gupta.onrender.com",
+      github:
+        "https://github.com/Ashish-gupta-coder/Portfolio/tree/main/frontend",
     },
-    
   ],
   tools: [
     { icon: SiNotion, name: "Notion" },

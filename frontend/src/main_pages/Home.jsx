@@ -2,7 +2,7 @@ import { FaLongArrowAltRight } from "react-icons/fa";
 import { MdLightMode } from "react-icons/md";
 import { IoIosCloudyNight } from "react-icons/io";
 import { HiOutlineDownload } from "react-icons/hi";
-import Resume from "../assets/Ashish_gupta_resume.pdf";
+import Resume from "../assets/my-resume.pdf";
 import assets from "../assets/assets";
 import { useState } from "react";
 

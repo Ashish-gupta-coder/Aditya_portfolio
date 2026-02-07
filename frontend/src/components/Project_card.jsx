@@ -58,7 +58,7 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
   />
 
   {/* Overlay */}
-  <a href={github}>
+  <a href={live}>
   <div className="absolute inset-0 bg-black/60 translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out flex items-center justify-center">
     {/* Icon */}
     <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-500 text-white text-3xl">
