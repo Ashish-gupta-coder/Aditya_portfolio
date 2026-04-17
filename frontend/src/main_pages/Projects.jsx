@@ -15,7 +15,7 @@ function Projects() {
           className="font-bold text-4xl md:text-5xl"
           data-aos="fade-up" data-aos-delay="100"
         >
-          My latest <span className="text-[#786de6]">work</span>
+          My latest <span className="text-[#13d3c4]">work</span>
         </h1>
         <p
           className="text-sm md:text-base text-gray-400 max-w-[700px] leading-relaxed tracking-wide"

@@ -23,11 +23,11 @@ import { ImEmbed2 } from "react-icons/im";
 import { GiPencilBrush } from "react-icons/gi";
 import { FaAppStore } from "react-icons/fa";
 import { DiVisualstudio } from "react-icons/di";
-import ProfilePic from "../assets/Image.jpg";
+import ProfilePic from "../assets/profile_pic.jpeg";
 import vidcall from "../assets/vidcall.png";
 import quickstay from "../assets/Quickstay.png";
 import Greencart from "../assets/Greencart.png";
-import Portfolio from "../assets/Portfolio.png";
+import Portfolio from "../assets/protfolio_img.png";
 import { SiNginxproxymanager } from "react-icons/si";
 const assets = {
   hero: {

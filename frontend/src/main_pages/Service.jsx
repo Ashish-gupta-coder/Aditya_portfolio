@@ -18,7 +18,7 @@ function Service() {
             What I Offer
           </h2>
           <h1 className="text-3xl md:text-5xl font-bold" data-aos="fade-up" data-aos-delay="200">
-            My <span className="text-[#786de6]">services</span>
+            My <span className="text-[#13d3c4]">services</span>
           </h1>
           <p className="text-sm md:text-base text-gray-400 max-w-xl mt-6" data-aos="zoom-in" data-aos-delay="300">
             Full Stack Developer | React.js, Node.js & Tailwind CSS | Building
@@ -36,12 +36,12 @@ function Service() {
             className="w-[280px] h-[230px] rounded-2xl bg-gradient-to-br
             from-[#0b1220] to-[#050c16] border border-white/10
             text-white flex items-center justify-center transition-all
-             duration-300 hover:-translate-y-2 hover:border-[#786de6]/40
+             duration-300 hover:-translate-y-2 hover:border-[#13d3c4]/40
              hover:shadow-[0_20px_40px_-15px_rgba(148,99,202,0.35)]"
           >
             <div className="w-[85%] flex flex-col gap-4">
               <div className="flex flex-col items-start gap-3">
-                <span className="text-3xl text-[#786de6] bg-[#786de6]/10 p-3 rounded-xl">
+                <span className="text-3xl text-[#13d3c4] bg-[#13d3c4]/10 p-3 rounded-xl">
                   <item.icon/>
                 </span>
                 <h1 className="font-semibold text-[15px] tracking-wide">
@@ -54,10 +54,10 @@ function Service() {
               <button
                 className="
             mt-2 w-fit flex items-center gap-1
-            text-[11px] text-[#786de6]
-            border border-[#786de6]/30
+            text-[11px] text-[#13d3c4]
+            border border-[#13d3c4]/30
             px-4 py-1.5 rounded-full
-            hover:bg-[#786de6] hover:text-white
+            hover:bg-[#13d3c4] hover:text-white
             transition-all duration-300
           "
               >
@@ -71,10 +71,10 @@ function Service() {
        <div className="md:w-[40%] md:hidden flex flex-col gap-6">
             {assets.about.descriptionBox.map((item) => (
               <div className="relative md:w-[420px] w-[300px] h-[150px] rounded-xl bg-gradient-to-br from-[#0b1220] to-[#050c16] border border-white/10  backdrop-blur-xl  text-white cursor-pointer transition-all duration-300 hover:scale-[1.03] hover:shadow-[0_0_40px_rgba(120,109,230,0.25)]">
-                <div className="absolute inset-0 rounded-xl bg-[#786de6]/10 blur-xl opacity-0 hover:opacity-100 transition" />
+                <div className="absolute inset-0 rounded-xl bg-[#13d3c4]/10 blur-xl opacity-0 hover:opacity-100 transition" />
                 <div className="relative z-10 flex flex-col justify-center gap-3 px-6 h-full">
                   <div className="flex items-center gap-4">
-                    <span className="text-[28px] text-[#786de6]">
+                    <span className="text-[28px] text-[#13d3c4]">
                       <item.icon/>
                     </span>
                     <p className="text-[18px] font-semibold">{item.heading}</p>

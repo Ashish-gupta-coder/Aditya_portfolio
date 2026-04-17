@@ -32,9 +32,6 @@ const Contact = lazy(() => import("./main_pages/Contact"));
       {introDone && (
         <div>
            <Nav />
-      <Suspense fallback={null}>
-            <Background />
-          </Suspense>
      
       <Suspense fallback={<div style={{ height: "100vh" }} />}>
             <Home />

@@ -15,21 +15,21 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
       <div className="max-w-6xl w-full bg-gradient-to-br from-[#0f1b2d] to-[#0b1220] border border-white/10 rounded-2xl md:p-10 p-5 grid md:grid-cols-2 gap-10 shadow-xl">
         {/* Left Content */}
         <div className="flex flex-col justify-center gap-6 text-white">
-          <span className="text-sm tracking-widest text-[#786de6]">{title}</span>
+          <span className="text-sm tracking-widest text-[#13d3c4]">{title}</span>
           <h1 className="text-4xl md:text-4xl font-semibold leading-tight">
 {name}          </h1>
 
           <ul className="space-y-3 text-gray-300">
             <li className="flex items-center gap-3 text-gray-400">
-              <span className="w-5 h-5 rounded-full border border-[#786de6] flex items-center justify-center text-xs text-white">✓</span>
+              <span className="w-5 h-5 rounded-full border border-[#13d3c4] flex items-center justify-center text-xs text-white">✓</span>
               {feature1}
             </li>
             <li className="flex items-center gap-3 text-gray-400">
-              <span className="w-5 h-5 rounded-full border border-[#786de6] flex items-center justify-center text-xs text-white">✓</span>
+              <span className="w-5 h-5 rounded-full border border-[#13d3c4] flex items-center justify-center text-xs text-white">✓</span>
              {feature2}
             </li>
             <li className="flex items-center gap-3 text-gray-400">
-              <span className="w-5 h-5 rounded-full border border-[#786de6] flex items-center justify-center text-xs text-white">✓</span>
+              <span className="w-5 h-5 rounded-full border border-[#13d3c4] flex items-center justify-center text-xs text-white">✓</span>
               {feature3}
             </li>
           </ul>
@@ -37,7 +37,7 @@ function Project_card({picture,title,name,feature1,feature2,feature3,live,github
 
          
 <a href={live}>
-          <button className="mt-4 w-fit flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-medium  transition bg-[#786de6] text-white">
+          <button className="mt-4 w-fit flex items-center gap-2 px-6 py-3 rounded-lg text-sm font-medium  transition bg-[#13d3c4] text-white">
             Visit Live Site <span><PiArrowUpRight/></span>
           </button>
           </a>
