@@ -24,7 +24,7 @@ function Home() {
             className="w-[200px] h-[200px] rounded-full object-cover" data-aos="zoom-in"
           />
           
-          <p data-aos="zoom-in">Hi! I'm Ashish Mehrotra 👋</p>
+          <p data-aos="zoom-in">Hi! I'm Aditya Mehrotra 👋</p>
         </div>
 
         {/* Content */}
