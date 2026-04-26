@@ -23,7 +23,7 @@ const Contact = lazy(() => import("./main_pages/Contact"));
   }, []);
   useEffect(() => {
   if (introDone) {
-    AOS.refresh();
+    AOS.refresh(;
   }
 }, [introDone]);
   return (
@@ -34,7 +34,7 @@ const Contact = lazy(() => import("./main_pages/Contact"));
            <Nav />
      
       <Suspense fallback={<div style={{ height: "100vh" }} />}>
-            <Home />
+            <Hom />
             <About />
             <Service />
             <Projects />
@@ -43,7 +43,7 @@ const Contact = lazy(() => import("./main_pages/Contact"));
       </div>
       )}
       
-    </>
+    </
   )
 }
 
